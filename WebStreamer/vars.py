@@ -16,7 +16,7 @@ class Var(object):
     BIN_CHANNEL = int(getenv('BIN_CHANNEL'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '18.212.111.113'))
-    OWNER_ID = int(getenv('OWNER_ID', '797848243'))
+    OWNER_ID = int(getenv('OWNER_ID', '1252654109'))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     if 'DYNO' in environ:
