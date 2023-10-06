@@ -13,7 +13,7 @@ class Var(object):
     SESSION_NAME = str(getenv('SESSION_NAME', 'AviStreamBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL'))
+    BIN_CHANNEL = int(getenv('-1001589836058'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '18.212.111.113'))
     OWNER_ID = int(getenv('OWNER_ID', '1252654109'))
